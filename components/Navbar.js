@@ -28,6 +28,7 @@ const Navbar = () => {
       </div>
       <div className={style.rightMenu}>
         <Link href = '/help'><div className={style.menuItem}>Help</div></Link>
+        <Link href = '/contact'><div className={style.menuItem}>Contact</div></Link>
         <div className={style.menuItem}>{currentUser.name?.split(' ')[0]}</div>
         <div className={style.userImageContainer}>
           <Image
